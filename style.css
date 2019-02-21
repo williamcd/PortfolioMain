@@ -80,6 +80,12 @@ body {
         left: 0;
         background-color: #FFFFFF;
     }
+    .project--small {
+        width: 45%;
+        height: 130px;
+        margin: none;
+
+    }
     .button1 {
         width: 90px;
         height: 29px;
