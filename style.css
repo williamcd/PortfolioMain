@@ -1,3 +1,6 @@
+body {
+  background-color: #FFFFFF;
+}
 #Nav {
     width: 45vw;
     height: 100vh;
@@ -49,4 +52,20 @@
 }
 .button1:active {
     background-color: #CCCCCC;
+}
+#Projects {
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.project--small {
+    width: 30%;
+    margin: 1.5%;
+    height: 22%;
+}
+.project--small img {
+    width: 100%;
+    height: 100%;
+}
+.project--small img:hover {
+    opacity: 0.3;
 }
