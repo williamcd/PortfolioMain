@@ -1,5 +1,6 @@
 body {
-  background-color: #FFFFFF;
+  background-color: #222222;
+  color: white;
 }
 #Nav {
     width: 45vw;
@@ -39,7 +40,8 @@ body {
 .button1 {
     width: 125px;
     height: 40px;
-    background-color: #FFFFFF;
+    background-color: #222222;
+    color: white;
     border: none;
     transition: all 0.2s;
     align-self: center;
@@ -47,11 +49,11 @@ body {
     outline: none;
 }
 .button1:hover {
-    background-color: #EEEEEE;
+    background-color: #444444;
     transition: all 0.3s;
 }
 .button1:active {
-    background-color: #CCCCCC;
+    background-color: #333333;
 }
 #Projects {
     flex-wrap: wrap;
