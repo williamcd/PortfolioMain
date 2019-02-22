@@ -14,6 +14,12 @@ body {
     justify-content: center;
     align-items: center;
 }
+.nav--buttons {
+    min-width: 512px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 .nav--name {
     font-family: 'Roboto', sans-serif;
     font-size: 8vw;
@@ -60,9 +66,9 @@ body {
     flex-direction: row;
 }
 .project--small {
-    width: 30%;
+    width: 15vw;
     margin: 1.5%;
-    height: 22%;
+    height: 12vw;
 }
 .project--small img {
     width: 100%;
@@ -72,6 +78,12 @@ body {
 
 
 /* MEDIA QUERIES - DANGER AHEAD - TURN BACK */
+@media only screen and (max-width: 1050px) {
+    .nav--buttons {
+        min-width: 275px;
+        max-width: 276px;
+    }
+}
 @media only screen and (max-width: 600px) {
     #Nav {
         width: 100%;
@@ -80,7 +92,10 @@ body {
         top: 0;
         right: 0;
         left: 0;
-        background-color: #FFFFFF;
+        background-color: #222222;
+    }
+    .nav--buttons {
+        min-width: 100%;
     }
     .project--small {
         width: 45%;
